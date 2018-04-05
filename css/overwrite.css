@@ -1,0 +1,94 @@
+.btn{
+    background:#52658C;
+}
+
+.btn:hover{
+    background:#0098DA;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active{
+    background:#52658C;
+}
+
+.navbar-brand img{
+    width:180px;
+}
+
+#mainNav .navbar-nav > li > a.active{
+    color:#0098DA !important;
+}
+
+#mainNav .navbar-nav > li > a:hover{
+    color:#0098DA !important;
+}
+
+.bg-primary{
+    background:#52658C !important;
+}
+
+.download h2{
+    font-size:2.2rem !important;
+}
+
+.download p{
+    line-height:2;
+}
+
+.features svg{
+    font-size:5rem;
+    margin-bottom:1.5rem;    
+}
+
+.overlay{
+    background:#0098DA !important;
+}
+
+.att ul{
+    font-size:1.5rem;
+}
+
+form button{
+    background:#0098DA !important;
+}
+
+textarea{
+    width:100%;
+    height:150px;
+}
+
+a{
+    color:#0098DA;
+}
+
+a:hover{
+    color:#52658C;
+}
+
+.warn .container{
+    padding:1rem;
+    border:2px dashed black;
+}
+
+.warn img{
+    width:150px;
+    display:block;
+    margin:0 auto;
+}
+
+footer a{
+    color:#0098DA !important;
+}
+
+footer a:hover{
+    color:#52658C !important;
+}
+
+footer hr{
+    max-width:100% !important;
+}
+
+@media screen and (max-width:992px) {
+    .navbar-brand img{
+        width:100px !important;
+    }
+}
