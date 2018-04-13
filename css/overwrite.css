@@ -75,6 +75,30 @@ a:hover{
     margin:0 auto;
 }
 
+#menu-menu-de-navegacao{
+    list-style:none;
+    display:flex;
+    align-items:center;
+}
+
+#menu-menu-de-navegacao li{
+    margin-right:10px;
+}
+
+#menu-menu-de-navegacao li a{
+    color:white;
+}
+
+#menu-menu-de-navegacao li a:hover{
+    text-decoration:none;
+    color:#52658C;
+}
+
+.navbar-shrink #menu-menu-de-navegacao li a{
+    color:black !important;
+}
+
+
 footer a{
     color:#0098DA !important;
 }
